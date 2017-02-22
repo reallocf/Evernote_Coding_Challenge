@@ -23,4 +23,4 @@ if __name__ == '__main__':
     with open("all_star.txt") as f:
         test(f.read(), 13, ['the', 'get', 'and', 'to', 'on', 'all', 'i', 'now', "you're", 'your', 'hey', 'a', 'star'])
     with open("all_of_shakespeare.txt") as f:
-        test(text, 3, ['the', 'and', 'i'])
+        test(f.read(), 3, ['the', 'and', 'i'])
